@@ -22,7 +22,7 @@
 @media only screen and (max-width: 768px) {
     .navbar-nav a {
         font-size: 20px !important;
-        margin: 10px !important;
+        margin: 1px !important;
     }
 }
 
@@ -51,8 +51,8 @@
 /*Media Queries Iconos*/ 
 @media only screen and (max-width: 768px) {
     .navbar-nav i {
-        font-size: 25px !important;
-        margin: 10px !important;
+        font-size: 30px !important;
+        margin: 7px !important;
     }
 }
 
