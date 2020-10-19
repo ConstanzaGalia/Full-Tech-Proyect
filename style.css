@@ -1,0 +1,32 @@
+.card-style{
+    border: solid #004aad !important;
+    border-radius: 0.5rem !important;
+    color: #4d4b54 ;
+}
+.card-style:hover{
+    box-shadow: 45px 25px 25px transparent ;
+    transform: translate(5px, 5px);
+    transition: 0.5s;
+}
+.card-body{
+    background-color: transparent;
+}
+.button-color{
+    background-color: #004aad !important;
+    color: white !important;
+}
+.button-color:hover{
+    box-shadow: 45px 25px 25px transparent ;
+    transform: translate(5px, 5px);
+    transition: 0.5s;
+}
+
+#contacto{
+    background-image: linear-gradient(90deg, rgba(0,202,255,1) 12%, rgba(13,69,218,1) 100%);
+}
+
+.icon-color{
+    color: #004aad !important;
+}
+
+
