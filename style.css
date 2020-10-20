@@ -154,3 +154,16 @@ body{
 .boton-whatsapp {
     font-size: 1.4rem;
 }
+
+/* ------------------------------- FOOTER --------------------- */
+
+.socialicon{
+    color: #004aad;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.copyright-logo{
+    font-size: 2.2rem;
+}
