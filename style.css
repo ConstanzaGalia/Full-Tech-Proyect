@@ -133,6 +133,7 @@
     .box14 {
         margin-bottom: 30px;
     }
+}
 /*----------------Navbar----------------*/
 
 /*Media Queries Logo*/
@@ -245,10 +246,16 @@
         font-size: 15px;
         margin-bottom: 5px;
     }
-
-
+}
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 393px) {
+    .card-body {
+        display: flex;
+        justify-content: end;
+    }
 }
 
 
@@ -288,7 +295,6 @@ body{
 
 .iconos-contacto {
     font-size: 1.3rem;
-
 }
 
 .titulos-contacto {
