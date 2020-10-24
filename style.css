@@ -245,4 +245,83 @@
         font-size: 15px;
         margin-bottom: 5px;
     }
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ----------------- SECCIÓN COMO TRABAJAMOS ------------------- */
+
+.titulo-nuestro-proceso{
+    font-family: 'Teko', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #004aad;
+}
+
+.fondo-nuestro-proceso{
+    background: #e9ecef;
+}
+
+.titulo-nuestros-clientes{
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.titulos-cards{
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+
+/* ----------------- SECCIÓN COMO CONTACTO ------------------- */
+
+#seccionContacto {
+    background-color:#004aad;
+    color: white;
+}
+
+.iconos-contacto {
+    font-size: 1.3rem;
+
+}
+
+.titulos-contacto {
+    color:black;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.boton-whatsapp {
+    font-size: 1.4rem;
+}
+
+/* ------------------------------- FOOTER --------------------- */
+
+.socialicon{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.socialicon:hover{
+    color: #004aad;
+}
+
+.copyright-logo{
+    font-size: 2.2rem;
+}
+
+.term-condic{
+    color: black;
+    font-size: 1.1rem;
+}
+.term-condic:hover{
+    color: #004aad;
 }
