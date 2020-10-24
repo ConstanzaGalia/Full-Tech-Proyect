@@ -29,4 +29,11 @@
     color: #004aad !important;
 }
 
+@media screen and (max-width: 393px) {
+    .card-body {
+       display: flex;
+       justify-content: end;
+    }
+  }
+
 
