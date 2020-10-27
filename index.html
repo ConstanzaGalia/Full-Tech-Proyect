@@ -8,7 +8,7 @@
     <!-- Font-Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-        crossorigin="anonymous" />
+        crossorigin="anonymous"/>
     <!--Google Font-->
     <link
         href="https://fonts.google.com/specimen/Teko?preview.text=Full%20Tech%20-%20Desarrollo%20Web&preview.text_type=custom"
@@ -26,7 +26,7 @@
 
     <!--------------------------------NAVBAR---------------------------------------------->
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top d-flex text-center">
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex text-center fondoNavBar">
         <div class="navbar-nav">
             <a class="navbar-brand" href="#">
                 <img src="./img/Logo sin fondo.png" width="90px" height="70px">
@@ -38,10 +38,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav d-flex float-left">
-                <a class="nav-link" href="#">SECCION</a>
-                <a class="nav-link" href="#">SECCION</a>
-                <a class="nav-link" href="#">SECCION</a>
-                <a class="nav-link" href="#">SECCION</a>
+                <a class="nav-link" href="#comoTrabajamos">Como Trabajamos</a>
+                <a class="nav-link" href="#projects">Proyectos</a>
+                <a class="nav-link" href="#sectionTeam">Nuestro Equipo</a>
+                <a class="nav-link" href="#seccionContacto">Contacto</a>
             </div>
             <div class="collapse navbar-collapse" id="navbarToggler"></div>
             <ul class="navbar-nav ml-auto float-right">
@@ -63,42 +63,42 @@
 
     <!--------------------------------CARROUSEL INICIO---------------------------------------------->
 
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="inicio" class="carousel slide fullCarrusel" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
         </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+        <div class="carousel-inner carousel-inner1">
+            <div class="carousel-item carousel-item1 active">
                 <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
                     class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel-caption1">
                     <h5>First Step!</h5>
                     <p>Establecemos una serie de reuniones para conocer sus requerimientos</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item1">
                 <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
                     class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel-caption1">
                     <h5>Second Step!</h5>
                     <p>Nuestro equipo se reune para realizar un Mockup y dividir el flujo de trabajo</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item1">
                 <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
                     class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel-caption1">
                     <h5>Third step!</h5>
                     <p>Programación de su pagina web</p>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item carousel-item1">
                 <img src="https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
                     class="d-block w-100" alt="...">
-                <div class="carousel-caption">
+                <div class="carousel-caption carousel-caption1">
                     <h5>Last step!</h5>
                     <p>Entrega de su producto finalizado mediante una exposición</p>
                 </div>
@@ -114,8 +114,15 @@
         </a>
     </div>
 
+
+    <!--Boton Scrooll Header-->
+    <a href="#inicio" class="btn btn-secondary btn-lg active rounded-circle mt-1 position-fixed fixedscroll role="
+    button" aria-pressed="true"><i class="fas fa-angle-double-up"></i></a>
+
+
+            
     <!--------------------------------SECCION COMO TRABAJAMOS----------------------------------------->
-    <div class="jumbotron">
+    <div class="my-5" id="comoTrabajamos">
         <h3 class="text-center titulo-nuestro-proceso">Nuestro Proceso y Tecnologías de Desarrollo
         </h3>
     </div>
@@ -239,12 +246,13 @@
         </div>
     </div>
 
+
     <div class="my-5">
         <div class="text-center">
             <h3 class="titulo-nuestros-clientes">Nuestros Clientes</h3>
         </div>
     </div>
-    <div class="container">
+    <div class="container mb-5">
         <div class="row justify-content-center">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -269,16 +277,14 @@
         </div>
     </div>
 
-    <!--------------------------------SECCION NUESTROS SERVICIOS-------------------------------------->
-
 
 
     <!--------------------------------SECCION PROYECTOS----------------------------------------->
 
-    <section id="projects" class="container p-3">
+    <section id="projects" class="container-fluid p-5">
 
-        <div class="text-center">
-            <h3 class="titulo-nuestros-clientes">Algunos De Nuestros Proyectos</h3>
+        <div class="text-center my-5">
+            <h3 class="titulo-nuestros-clientes text-light">Algunos De Nuestros Proyectos</h3>
         </div>
 
         <a type="button" data-toggle="modal" data-target=".bd-example-modal-xl">
@@ -363,6 +369,63 @@
     </section>
 
     <!--------------------------------SECCION NUESTRO EQUIPO------------------------------------------>
+    <div class="container-fluid my-5 py-5" id="sectionTeam">
+        <h3 class="text-center">Nuestro Equipo de trabajo</h3>
+        <div class="row mt-5">
+            <div class="col-md-3 col-sm-6">
+                <div class="box14">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-1.jpg" alt="">
+                    <div class="box-content">
+                        <h3 class="title">Efrain Nieman</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="icon">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box14">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-2.jpg" alt="">
+                    <div class="box-content">
+                        <h3 class="title">Constanza Galia</h3>
+                        <span class="post">Web Designer</span>
+                        <ul class="icon">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box14">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-3.jpg" alt="">
+                    <div class="box-content">
+                        <h3 class="title">Max Mateo</h3>
+                        <span class="post">Web Designer</span>
+                        <ul class="icon">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="box14">
+                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-3.jpg" alt="">
+                    <div class="box-content">
+                        <h3 class="title">Tadeo Mocoroa</h3>
+                        <span class="post">Web Designer</span>
+                        <ul class="icon">
+                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-------------------------------------------CONTACTO--------------------------------------------->
@@ -434,65 +497,6 @@
                         <button class="btn btn-success border-rounded-circle mx-auto m-2 boton-whatsapp">
                             <i class="fab fa-whatsapp text-white"></i></button>
                     </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--------------------------------SECCION NUESTRO EQUIPO------------------------------------------>
-    <div class="container-fluid">
-        <h3 class="text-center">Nuestro Equipo de trabajo</h3>
-        <div class="row mt-30">
-            <div class="col-md-3 col-sm-6">
-                <div class="box14">
-                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-1.jpg" alt="">
-                    <div class="box-content">
-                        <h3 class="title">Efrain Nieman</h3>
-                        <span class="post">Web Developer</span>
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="box14">
-                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-2.jpg" alt="">
-                    <div class="box-content">
-                        <h3 class="title">Constanza Galia</h3>
-                        <span class="post">Web Designer</span>
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="box14">
-                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-3.jpg" alt="">
-                    <div class="box-content">
-                        <h3 class="title">Max Mateo</h3>
-                        <span class="post">Web Designer</span>
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="box14">
-                    <img src="http://bestjquery.com/tutorial/hover-effect/demo122/images/img-3.jpg" alt="">
-                    <div class="box-content">
-                        <h3 class="title">Tadeo Mocoroa</h3>
-                        <span class="post">Web Designer</span>
-                        <ul class="icon">
-                            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
